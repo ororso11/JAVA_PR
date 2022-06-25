@@ -14,7 +14,7 @@ class Student {
 
 }
 
-public class ClassCode {
+public class StudentCode {
     public static void main(String[] args) {
         Student yj = new Student("CYJ",10);
     }
