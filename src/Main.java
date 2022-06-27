@@ -29,6 +29,30 @@ public class Main {
         DirectoryItem di1 = new DirectoryItem("n2",list);
         di1.print("di1");
 
+        Foo foo = new DefaultFoo("Hello Foo!");
+        System.out.println(foo.say());
+
+        Object obj = new FooService("heloo");
+        System.out.println(obj instanceof FooService);
+        System.out.println(obj instanceof AbstractBaseServcie);
+        System.out.println(obj instanceof BaseService);
+        System.out.println(obj instanceof Integer);
+
+        if(obj instanceof FooService) {
+            FooService service = (FooService) obj;
+            System.out.println(service.Say());
+        }
+
+        Integer a1 = 12345;
+        Integer a2 = 12345;
+
+        String a3 = "1";
+        String a4 = "1";
+
+        a1.equals(a2);
+        a3.equals(a4);
+
+
     }
 }
 
