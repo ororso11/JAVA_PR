@@ -53,6 +53,19 @@ public class Main {
         a3.equals(a4);
 
 
+        Task task = new Task(TaskType.PRIVATE, "buy milk");
+        TaskType type = task.getType();
+
+        switch (type) {
+            case PRIVATE:
+                System.out.println("Task[type = " + type + "]");
+                break;
+            case WORK:
+                System.out.println("Task[type = " + type + "]");
+        }
+
+
+
     }
 }
 
