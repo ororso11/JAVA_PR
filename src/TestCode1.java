@@ -1,11 +1,11 @@
+import test.TestCode;
+
 public class TestCode1 {
 
-    public static final String SELECT_COLOR = "blue";
-
     public static void main(String[] args) {
-        String color = SELECT_COLOR;
 
-        System.out.println(color);
+        System.out.println(TestCode.SELECT_COLOR);
+        System.out.println("red1");
 
     }
 }
