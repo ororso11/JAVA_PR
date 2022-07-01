@@ -7,5 +7,6 @@ public class TestCode1 {
         System.out.println(TestCode.SELECT_COLOR);
         System.out.println("red1");
 
+
     }
 }
