@@ -6,5 +6,6 @@ public class TestCode1 {
 
         System.out.println(TestCode.SELECT_COLOR);
         System.out.println();
+        System.out.println("의미없는 커밋이지만 몸이 안좋아서 어쩔수가없ㄷ,");
     }
 }
