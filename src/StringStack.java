@@ -16,7 +16,6 @@ public class StringStack {
         if(taskList.isEmpty()) {
             return null;
         }
-
         return taskList.remove(taskList.size() - 1);
 
     }
