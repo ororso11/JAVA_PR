@@ -15,6 +15,7 @@ public class Main {
         //StaticCode sc = new StaticCode();
         //System.out.println(sc.inFiled);
         //System.out.println(sc.inMenthod());
+        //System.out.println(sc.inMenthod());
 
         //System.out.println(FinalCode.GREE_MES);
         //System.out.println(FinalCode.stField);
